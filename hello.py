@@ -34,9 +34,12 @@ x reducido en 2. Si contenía 2 antes, ahora tiene un valor de 0.
 /=	x /= 2
 x dividido por 2. Si contenía 2 antes, ahora tiene un valor de 1.
 *=	x *= 2
-x multiplicado por 2. Si contenía 2 antes, ahora tiene un valor de 4.'''
+x multiplicado por 2. Si contenía 2 antes, ahora tiene un valor de 4.
 
 from datetime import date
 date.today()
 print(date.today())
-print("Today's date is: " + str(date.today()))
+print("Today's date is: " + str(date.today()))'''
+parsecs = 11
+lightyears = parsecs * 3.26
+print(str(parsecs) + " parsecs is " + str(lightyears) + " lightyears")
